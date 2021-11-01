@@ -12,7 +12,23 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-</head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<style>
+  .footer-section{
+  background-image: linear-gradient(to top left,#1a2e61 50%,#111e40 0) !important;
+  }
+  a,
+  a:visited,
+  a:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+</style>
+  </head>
 
 <body>
   <!-- header section -->
@@ -78,7 +94,7 @@
         </div>
         <!-- menus -->
         <div class="header-desktop-navigation-menu">
-          <a href="#">Home</a>
+          <a href="./index.html">Home</a>
         </div>
         <div class="header-desktop-navigation-menu">
           <a href="#">Brands</a>
@@ -87,7 +103,7 @@
           <a href="#">Offers</a>
         </div>
         <div class="header-desktop-navigation-menu">
-          <a href="#">Shops</a>
+          <a href="./products.html">Shops</a>
         </div>
         <div class="header-desktop-navigation-menu">
           <a href="#">About us</a>
@@ -114,6 +130,7 @@
           <p class="m-0 fw-bold text-white">Main menus</p>
         </div>
         <div class="all-side-nav-menus">
+          <a href="./index.html">
           <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
             <div class="text-muted all-side-nav-menus-text">
               <i class="fas fa-home mx-1 text-danger"></i> Home
@@ -122,6 +139,8 @@
               <i class="fas fa-chevron-right"></i>
             </div>
           </div>
+        </a>
+          <a href="./products.html">
           <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
             <div class="text-muted all-side-nav-menus-text">
               <i class="fas fa-shopping-bag mx-1 text-danger"></i> Shops
@@ -130,6 +149,7 @@
               <i class="fas fa-chevron-right"></i>
             </div>
           </div>
+        </a>
           <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
             <div class="text-muted all-side-nav-menus-text">
               <i class="far fa-building mx-1 text-danger"></i> About US
@@ -189,7 +209,7 @@
             <img src="./assets/img/3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <div class="carousel-indicators d-none d--md-block">
+        <div class="carousel-indicators d-none d-md-block">
           <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
@@ -201,12 +221,12 @@
 
 
       <!-- ======== services ======== -->
-      <div class="row">
+      <div class="row mt-2">
         <div class="col-12 col-lg-4 col-md-6">
           <div class="card bg-white p-3">
             <div class="row">
               <div class="col-3">
-
+                <img style="height:70px" src="https://img.icons8.com/color/48/000000/delivery--v2.png" class="animate__animated animate__headShake animate__slower animate__infinite"/>
               </div>
               <div class="col-9">
                 <p class="m-0 fw-bold h5">Free Delivery</p>
@@ -215,28 +235,81 @@
               </div>
             </div>
           </div>
+        </div> 
+        <div class="col-12 col-lg-4 col-md-6">
+          <div class="card bg-white p-3">
+            <div class="row">
+              <div class="col-3">
+                <img style="height:65px" src="https://img.icons8.com/color/48/000000/cash-.png" class="animate__animated animate__bounce animate__slow animate__infinite"/>
+              </div>
+              <div class="col-9">
+                <p class="m-0 fw-bold h5">Cash On Delivery</p>
+                <small class="lead fs-6 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                  autem.</small>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-lg-4 col-md-6"></div>
-        <div class="col-12 col-lg-4 col-md-6"></div>
+        <div class="col-12 col-lg-4 col-md-6">
+          <div class="card bg-white p-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/000000/external-service-cloud-technology-wanicon-two-tone-wanicon.png" class="animate__animated animate__tada animate__slow animate__infinite"/>
+              </div>
+              <div class="col-9">
+                <p class="m-0 fw-bold h5">24/7 Active service</p>
+                <small class="lead fs-6 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                  autem.</small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+
+      <!-- =========== All Brands =========== -->
+
+    
+      <!-- =========== Features Products ======-->
     </div>
   </main>
   <!-- ============== footer section ============ -->
-  <footer class="bg-light">
-    <div class="px-3 px-lg-5 py-4">
-      <div class="row container">
+  <footer class="footer-section text-light" style="background-image: linear-gradient(to top left,#1a2e61 50%,#111e40 0) !important;">
+    <div class="container py-4">
+      <div class="row px-lg-2">
         <!-- about section -->
-        <div class="col-12 col-lg-6 col-md-12 p-lg-3">
+        <div class="col-12 col-lg-4 col-md-12 p-lg-3">
           <div class="footer-brand-logo px-lg-3">
             <h3>SkyLight</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam officiis ad porro perspiciatis
-              neque
-              provident, facere nesciunt cum tempora sequi?</p>
+            <div class="d-flex justify-content-start align-items-start">
+              <div class="icons">
+                <img src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/000000/external-service-cloud-technology-wanicon-two-tone-wanicon.png"/>
+              </div>
+              <div class="mx-2">
+                <small class="fw-lighter fs-6">Need help? Call us 24/7</small>
+                <p>0120359436,1763184959</p>
+              </div>
+            </div>
+            <br>
+            <p class="m-0 fw-bold">Contact Info</p>
+            <p>17 Badda, Dhk Street - 1234, BD</p>
           </div>
         </div>
+        <div class="col-12 col-lg-2 col-md-12 d-none d-md-block"></div>
         <!-- menus -->
-        <div class="col-12 col-lg-3 col-md-6 p-lg-3 p-2">
-          <div class="footer-brand-logo d-flex flex-column justify-content-start align-item-start">
+        <div class="col-6 col-lg-2 col-md-6 p-lg-3 p-2">
+          <div class="footer-brand-logo d-flex flex-column justify-content-center align-items-start">
+            <h6>All Brands</h6>
+            <a href="">Home</a>
+            <a href="">Products</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+        <!-- <div class="col-12 col-lg-1 col-md-12 d-none d-md-block"></div> -->
+        <div class="col-6 col-lg-2 col-md-6 p-lg-3 p-2">
+          <div class="footer-brand-logo d-flex flex-column justify-content-center align-items-start">
             <h6>Quick Links</h6>
             <a href="">Home</a>
             <a href="">Products</a>
@@ -244,11 +317,11 @@
             <a href="">Contact Us</a>
           </div>
         </div>
+        <!-- <div class="col-12 col-lg-1 col-md-12"></div> -->
         <!-- media links -->
-        <div class="col-12 col-lg-3 col-md-6 p-lg-3 p-2">
+        <div class="col-6 col-lg-2 col-md-12 p-lg-3 p-2">
           <div class="footer-brand-logo">
-            <h6>Media</h6>
-            <div class="d-flex jsutify-content-start align-items-center my-2">
+            <div class="d-flex justify-content-start align-items-start my-2">
               <div class="footer-fabs mx-2">
                 <i class="fab fa-facebook-square"></i>
               </div>
@@ -256,7 +329,7 @@
                 <a href="">Facebook</a>
               </div>
             </div>
-            <div class="d-flex jsutify-content-start align-items-center my-2">
+            <div class="d-flex justify-content-start align-items-start my-2">
               <div class="footer-fabs mx-2">
                 <i class="fab fa-facebook-square"></i>
               </div>
@@ -267,15 +340,21 @@
           </div>
         </div>
         <!-- contact us 12 -->
-        <!-- copyright -->
-        <div class="col-12">
+        <!-- <div class="col-12 p-2 bg-dark ">
           <div class="row">
-            <div class="col-8">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+          </div>
+        </div> -->
+        <!-- copyright -->
+        <div class="col-12 border-top">
+          <div class="row">
+            <div class="col-12 col-lg-9 col-md-7 text-left"  style="text-decoration: none; font-size: 13px;color:inherit">
               All copyright reserved by Howladar Electronis
             </div>
-            <div class="col-4">
+            <div class="col-12 col-lg-3 col-md-5 text-right">
               <small><a href="https://icons8.com/icon/3686/shopping-bag" class="text-align-right"
-                  style="text-decoration: none; font-size: 13px;color:inherit">Icon by Icons8</a></small>
+                  style="text-decoration: none; font-size: 13px;color:inherit">All Icon by Icons8, Thank you</a></small>
             </div>
           </div>
         </div>
