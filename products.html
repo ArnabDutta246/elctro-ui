@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products</title>
-    <link rel="stylesheet" href="./dist/css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products</title>
+  <link rel="stylesheet" href="./dist/css/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./dist/css/index.css">
+  <style>
+
+  </style>
 </head>
+
 <body>
-      <!-- header section -->
+  <!-- header section -->
   <header class="fixed-top">
     <div class="border-bottom">
       <!-- desktop header -->
@@ -81,12 +84,12 @@
         <div class="header-desktop-navigation-menu">
           <a href="./index.html">Home</a>
         </div>
-        <div class="header-desktop-navigation-menu">
+        <!-- <div class="header-desktop-navigation-menu">
           <a href="#">Brands</a>
         </div>
         <div class="header-desktop-navigation-menu">
           <a href="#">Offers</a>
-        </div>
+        </div> -->
         <div class="header-desktop-navigation-menu">
           <a href="./products.html">Shops</a>
         </div>
@@ -115,22 +118,26 @@
           <p class="m-0 fw-bold text-white">Main menus</p>
         </div>
         <div class="all-side-nav-menus">
-          <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
-            <div class="text-muted all-side-nav-menus-text">
-              <i class="fas fa-home mx-1 text-danger"></i> Home
+          <a href="./index.html">
+            <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
+              <div class="text-muted all-side-nav-menus-text">
+                <i class="fas fa-home mx-1 text-danger"></i> Home
+              </div>
+              <div class="text-muted all-side-nav-menus-text">
+                <i class="fas fa-chevron-right"></i>
+              </div>
             </div>
-            <div class="text-muted all-side-nav-menus-text">
-              <i class="fas fa-chevron-right"></i>
+          </a>
+          <a href="./products.html">
+            <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
+              <div class="text-muted all-side-nav-menus-text">
+                <i class="fas fa-shopping-bag mx-1 text-danger"></i> Shops
+              </div>
+              <div class="text-muted all-side-nav-menus-text">
+                <i class="fas fa-chevron-right"></i>
+              </div>
             </div>
-          </div>
-          <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
-            <div class="text-muted all-side-nav-menus-text">
-              <i class="fas fa-shopping-bag mx-1 text-danger"></i> Shops
-            </div>
-            <div class="text-muted all-side-nav-menus-text">
-              <i class="fas fa-chevron-right"></i>
-            </div>
-          </div>
+          </a>
           <div class="py-3 px-3 d-flex justify-content-between align-items-center border-bottom">
             <div class="text-muted all-side-nav-menus-text">
               <i class="far fa-building mx-1 text-danger"></i> About US
@@ -175,43 +182,376 @@
 
   <!--============== main section ============-->
   <main class="bg-light pt-lg-4 pt-1 mt-5">
-      <div class="container p-2 mt-lg-5 pt-lg-5">
-          <!-- top banner -->
-          <div class="px-4 py-3 bg-light border border-danger rounded mb-2">
-              <h5 class="text-dark">ALL SHOPPING LIST</h5>
-              <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-                <ol class="breadcrumb text-dark">
-                  <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                  <li class="breadcrumb-item text-light" aria-current="page">Shop</li>
-                </ol>
-              </nav>
-          </div>
-          <!-- filter section -->
-          <div class="row border-bottom bg-light p-2">
-              <div class="col-11">
-                All products
-              </div>
-              <div class="col-1">
-                <button class="btn btn-light text-dark">
-                    <i class="fas fa-bars text-dark"></i>
-                </button>
-              </div>
-          </div>
-          <!-- Products row -->
-          <div class="row my-3">
-              <div class="col-3">
-                  <div class="card p-2 bg-white rounded">
-                      <div class="d-flex justify-content-center align-items-start">
-                          <div class="product-image">
-
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+    <div class="container p-2 mt-lg-5 pt-lg-3">
+      <!-- Breadcrumb -->
+      <div class="px-4 pt-0 pb-0">
+        <nav
+          style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+          aria-label="breadcrumb">
+          <ol class="breadcrumb text-dark">
+            <li class="breadcrumb-item text-muted"><small><a href="./index.html">Home</a></small> </li>
+            <li class="breadcrumb-item text-muted" aria-current="page"> <small>Shop</small> </li>
+          </ol>
+        </nav>
       </div>
+      <!-- filter section -->
+      <div class="row bg-light px-4 py-0">
+        <div class="col-12 col-lg-8 col-md-4">
+          <p class="m-0 fw-bold">All products</p>
+          <p class="m-0 text-muted">Items 20</p>
+        </div>
+        <div class="col-12 col-lg-4 col-md-8">
+          <div class="d-flex justify-content-start align-item-center">
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option selected>Select Categories</option>
+              <option value="1">Headphone</option>
+              <option value="2">Light</option>
+              <option value="3">Mobile</option>
+            </select>
+            <button class="btn btn-light text-dark">
+              <i class="fas fa-th-list"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Products row -->
+      <div class="row my-3 px-4 py-2">
+        <!-- product 1 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://m.media-amazon.com/images/I/51z376z5iBL._SL1200_.jpg" alt="" srcset=""
+                  style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">Sony h12009 Bluetooth Headphone</p>
+                <p class="m-0 text-muted">Sony Brand</p>
+                <h5 class="text-danger">2300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product 2 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://m.media-amazon.com/images/I/81cJ1kUT1LL._AC_SS450_.jpg" alt="" srcset=""
+                  style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">JBL JT09V Bluetooth Headphone</p>
+                <p class="m-0 text-muted">JBL Brand</p>
+                <h5 class="text-danger">5300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product 3 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://m.media-amazon.com/images/I/71ynIMjwgwL._SL1500_.jpg" alt="" srcset=""
+                  style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">JBL JT877V Bluetooth Headphone</p>
+                <p class="m-0 text-muted">JBL Brand</p>
+                <h5 class="text-danger">5300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product 4 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://m.media-amazon.com/images/I/41sGASjc4-L.jpg" alt="" srcset="" style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">Realme 9| 4 GB Ram | 48 Mega pixcel Camera</p>
+                <p class="m-0 text-muted">Realme Brand</p>
+                <h5 class="text-danger">10300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product 5 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://m.media-amazon.com/images/I/71geVdy6-OS._SX569_.jpg" alt="" srcset=""
+                  style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">Oppo A74 | 6 GB Ram | 64 Mega pixcel Camera</p>
+                <p class="m-0 text-muted">oppo Brand</p>
+                <h5 class="text-danger">18300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product 6 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://img.tatacliq.com/images/i7/437Wx649H/MP000000009451171_437Wx649H_202104280331211.jpeg"
+                  alt="" srcset="" style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">Realme 8 | 6 GB Ram | 64 Mega pixcel Camera</p>
+                <p class="m-0 text-muted">Realme Brand</p>
+                <h5 class="text-danger">14300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product 7 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://i.gadgets360cdn.com/products/large/redmi-note-10s-db-600x800-1620030866.jpg" alt=""
+                  srcset="" style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">Oppo Reno 10 | 6 GB Ram | 64 Mega pixcel Camera</p>
+                <p class="m-0 text-muted">oppo Brand</p>
+                <h5 class="text-danger">21300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product 8 -->
+        <div class="col-12 col-lg-3 col-md-6 mb-4">
+          <div class="card p-2 bg-white rounded">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="product-image d-flex justify-content-center align-item-center">
+                <img src="https://m.media-amazon.com/images/I/61yeJbZkwmL._SL1500_.jpg" alt="" srcset=""
+                  style="height:200px;">
+              </div>
+              <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                <p class="m-0 fw-bolder">Sony Smart Watch | Bluetooth Music</p>
+                <p class="m-0 text-muted">Sony Brand</p>
+                <h5 class="text-danger">2300 BDT</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn btn-sm btn-block btn-success mx-1" style="padding: 6px 30px;">
+                  <i class="fas fa-shopping-basket"></i> Add to cart
+                </div>
+                <div class="btn btn-sm btn-block btn-light" style="padding: 6px 9px;">
+                  Details
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- =========== [brand section ]=========== -->
+      <div class="px-3 py-4 mt-5 d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div>
+          <h3>Our Brands Collections</h3>
+          <p class="text-muted">Get All Your Gadget and Favourite Brands Items</p>
+        </div>
+        <!-- <button class="btn btn-sm btn-danger">Visit More <i class="fas fa-arrow-right ml-2"></i></button> -->
+      </div>
+      <!-- Products row -->
+      <div class="container" id="brands">
+
+        <div class="row my-3 bg-white">
+          <!-- product 1 -->
+          <div class="col-12 col-lg-4 col-md-6 mb-4 border-end">
+            <div class="p-2 bg-white rounded">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="product-image d-flex justify-content-center align-item-center">
+                  <img src="https://m.media-amazon.com/images/I/51z376z5iBL._SL1200_.jpg" alt="" srcset=""
+                    style="height:200px;">
+                </div>
+                <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                  <p class="m-0 text-muted">Sony Brand</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product 2 -->
+          <div class="col-12 col-lg-8 col-md-6 mb-4">
+            <div class="row">
+              <div class="col-6 col-lg-3 col-md-6 mb-2 border">
+                <div class="p-2 bg-white">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="product-image d-flex justify-content-center align-item-center">
+                      <img src="https://m.media-amazon.com/images/I/81cJ1kUT1LL._AC_SS450_.jpg" alt="" srcset=""
+                        style="height:90px;">
+                    </div>
+                    <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                      <p class="m-0 text-muted">JBL Brand</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- product 3 -->
+              <div class="col-6 col-lg-3 col-md-6 mb-2 border">
+                <div class="p-2 bg-white">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="product-image d-flex justify-content-center align-item-center">
+                      <img src="https://m.media-amazon.com/images/I/71ynIMjwgwL._SL1500_.jpg" alt="" srcset=""
+                        style="height:90px;">
+                    </div>
+                    <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                      <p class="m-0 text-muted">JBL Brand</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- product 4 -->
+              <div class="col-6 col-lg-3 col-md-6 mb-2 border">
+                <div class="p-2 bg-white">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="product-image d-flex justify-content-center align-item-center">
+                      <img src="https://m.media-amazon.com/images/I/41sGASjc4-L.jpg" alt="" srcset=""
+                        style="height:90px;">
+                    </div>
+                    <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                      <p class="m-0 text-muted">Realme</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- product 5 -->
+              <div class="col-6 col-lg-3 col-md-6 mb-2 border">
+                <div class="p-2 bg-white">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="product-image d-flex justify-content-center align-item-center">
+                      <img src="https://m.media-amazon.com/images/I/61K+5CdeHmL._SL1500_.jpg" alt="" srcset=""
+                        style="height:90px;">
+                    </div>
+                    <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                      <p class="m-0 text-muted">Apple</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- product 6 -->
+              <div class="col-6 col-lg-3 col-md-6 border">
+                <div class="p-2 bg-white">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="product-image d-flex justify-content-center align-item-center">
+                      <img src="https://m.media-amazon.com/images/I/61yeJbZkwmL._SL1500_.jpg" alt="" srcset=""
+                        style="height:90px;">
+                    </div>
+                    <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                      <p class="m-0 text-muted">Mi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- product 7 -->
+              <div class="col-6 col-lg-3 col-md-6 border">
+                <div class="p-2 bg-white">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="product-image d-flex justify-content-center align-item-center">
+                      <img src="https://i.gadgets360cdn.com/products/large/redmi-note-10s-db-600x800-1620030866.jpg"
+                        alt="" srcset="" style="height:90px;">
+                    </div>
+                    <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                      <p class="m-0 text-muted">Xiomi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- product 8 -->
+              <div class="col-6 col-lg-3 col-md-6 border">
+                <div class="p-2 bg-white">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="product-image d-flex justify-content-center align-item-center">
+                      <img src="https://m.media-amazon.com/images/I/71geVdy6-OS._SX569_.jpg" alt="" srcset=""
+                        style="height:90px;">
+                    </div>
+                    <div class="product-info d-flex flex-column justify-content-start align-items-start">
+                      <p class="m-0 text-muted">OPPO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- ======== [ brand section end ]======== -->
+    </div>
   </main>
-  <footer class="footer-section text-light" style="background-image: linear-gradient(to top left,#1a2e61 50%,#111e40 0) !important;">
+
+
+
+
+  <!-- ================== footer ==================== -->
+  <footer class="footer-section text-light"
+    style="background-image: linear-gradient(to top left,#1a2e61 50%,#111e40 0) !important;">
     <div class="container py-4">
       <div class="row px-lg-2">
         <!-- about section -->
@@ -220,7 +560,8 @@
             <h3>SkyLight</h3>
             <div class="d-flex justify-content-start align-items-start">
               <div class="icons">
-                <img src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/000000/external-service-cloud-technology-wanicon-two-tone-wanicon.png"/>
+                <img
+                  src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/000000/external-service-cloud-technology-wanicon-two-tone-wanicon.png" />
               </div>
               <div class="mx-2">
                 <small class="fw-lighter fs-6">Need help? Call us 24/7</small>
@@ -237,18 +578,20 @@
         <div class="col-6 col-lg-2 col-md-6 p-lg-3 p-2">
           <div class="footer-brand-logo d-flex flex-column justify-content-center align-items-start">
             <h6>All Brands</h6>
-            <a href="">Home</a>
-            <a href="">Products</a>
-            <a href="">About Us</a>
-            <a href="">Contact Us</a>
+            <p class="m-0">Realme</p>
+            <p class="m-0">Xiomie</p>
+            <p class="m-0">Oppo</p>
+            <p class="m-0">Boat</p>
+            <p class="m-0">Apple</p>
+            <p class="m-0">JBL</p>
           </div>
         </div>
         <!-- <div class="col-12 col-lg-1 col-md-12 d-none d-md-block"></div> -->
         <div class="col-6 col-lg-2 col-md-6 p-lg-3 p-2">
           <div class="footer-brand-logo d-flex flex-column justify-content-center align-items-start">
             <h6>Quick Links</h6>
-            <a href="">Home</a>
-            <a href="">Products</a>
+            <a href="./index.html">Home</a>
+            <a href="./products.html">Products</a>
             <a href="">About Us</a>
             <a href="">Contact Us</a>
           </div>
@@ -285,7 +628,8 @@
         <!-- copyright -->
         <div class="col-12 border-top">
           <div class="row">
-            <div class="col-12 col-lg-9 col-md-7 text-left"  style="text-decoration: none; font-size: 13px;color:inherit">
+            <div class="col-12 col-lg-9 col-md-7 text-left"
+              style="text-decoration: none; font-size: 13px;color:inherit">
               All copyright reserved by Howladar Electronis
             </div>
             <div class="col-12 col-lg-3 col-md-5 text-right">
@@ -305,4 +649,5 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
